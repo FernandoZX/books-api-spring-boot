@@ -1,0 +1,19 @@
+server:
+  port: 8081
+
+# Oracle #
+spring:
+  application:
+    name: book-api-spring-boot
+  datasource:
+    url: jdbc:oracle:thin:@localhost:1521:xe
+    username: system
+    password: oracle
+    driverClassName: oracle.jdbc.driver.OracleDriver
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.OracleDialect
+    show-sql: true
+    hibernate:
+      ddl-auto: update
