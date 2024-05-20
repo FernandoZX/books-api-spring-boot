@@ -26,7 +26,7 @@ En order para compilar el proyecto ejecuta el siguiente comando:
 mvn clean package
 ```
 
-If your default `java` is not from JDK 17 use (in `simple-rpg` directory):
+If your default `java` is not from JDK 21 use (in `book-api-spring-boot` directory):
 
 ```bash
 JAVA_HOME=<path_to_jdk_home> mvn package
